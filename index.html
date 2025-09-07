@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudyHub - Home</title>
+  <style>
+    body{font-family:Arial, sans-serif;margin:0;background:#f8fafc;color:#111}
+    header{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1);padding:1rem}
+    .logo{text-align:center;color:#0b6efd;margin:0;font-size:2rem}
+    nav{text-align:center;margin-top:.5rem}
+    nav a{margin:0 .5rem;text-decoration:none;color:#0b6efd;font-weight:bold}
+    nav a:hover{text-decoration:underline}
+    .contact-info{text-align:center;margin-top:.5rem;color:#6b7280;font-size:.95rem}
+    .contact-info a{color:#0b6efd;text-decoration:none;margin:0 .3rem}
+    main{max-width:800px;margin:2rem auto;padding:1rem}
+    .links{display:grid;gap:1rem}
+    .link-card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+    .link-card a{color:#fff;background:#0b6efd;padding:.5rem 1rem;border-radius:6px;text-decoration:none}
+    footer{text-align:center;padding:1rem;margin-top:2rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">StudyHub</h1>
+    <div class="contact-info">
+      📧 <a href="mailto:abideenazainu@gmail.com">abideenazainu@gmail.com</a> | 
+      📞 <a href="tel:+233534263143">0534263143</a> | 
+      💬 <a href="https://wa.me/233534263143" target="_blank">WhatsApp</a>
+    </div>
+  </header>
+  <main>
+    <h2>Welcome to StudyHub</h2>
+    <p>Select a category to continue:</p>
+    <div class="links">
+      <div class="link-card"><a href="wassce.html">📘 WASSCE Past Questions</a></div>
+      <div class="link-card"><a href="bece.html">📘 BECE Past Questions</a></div>
+      <div class="link-card"><a href="shs.html">📘 SHS Books</a></div>
+      <div class="link-card"><a href="practical.html">🧪 Practical Questions</a></div>
+    </div>
+    <section id="about">
+      <h3>About Us</h3>
+      <p>We help students prepare for BECE, WASSCE and SHS studies by providing free access to past questions, textbooks, and study resources.</p>
+    </section>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:abideenazainu@gmail.com">abideenazainu@gmail.com</a></p>
+      <p>Phone: 📞 <a href="tel:+233534263143">0534263143</a></p>
+      <p>WhatsApp: <a href="https://wa.me/233534263143" target="_blank">Chat on WhatsApp</a></p>
+    </section>
+  </main>
+  <footer><small>&copy; <span id="year"></span> StudyHub</small></footer>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
